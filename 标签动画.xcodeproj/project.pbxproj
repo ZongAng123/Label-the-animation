@@ -15,6 +15,7 @@
 		743C69961E5AD598006FC24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743C69941E5AD598006FC24E /* LaunchScreen.storyboard */; };
 		743C69A11E5AD599006FC24E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743C69A01E5AD599006FC24E /* ____Tests.m */; };
 		743C69AC1E5AD599006FC24E /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743C69AB1E5AD599006FC24E /* ____UITests.m */; };
+		743C69BE1E5AD69C006FC24E /* DBSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 743C69BD1E5AD69C006FC24E /* DBSphereView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,10 @@
 		743C69A71E5AD599006FC24E /* 标签动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "标签动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		743C69AB1E5AD599006FC24E /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		743C69AD1E5AD599006FC24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743C69BA1E5AD5FD006FC24E /* DBMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBMatrix.h; sourceTree = "<group>"; };
+		743C69BB1E5AD677006FC24E /* DBPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBPoint.h; sourceTree = "<group>"; };
+		743C69BC1E5AD69C006FC24E /* DBSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSphereView.h; sourceTree = "<group>"; };
+		743C69BD1E5AD69C006FC24E /* DBSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSphereView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		743C69851E5AD598006FC24E /* 标签动画 */ = {
 			isa = PBXGroup;
 			children = (
+				743C69B91E5AD5D7006FC24E /* Class */,
 				743C69891E5AD598006FC24E /* AppDelegate.h */,
 				743C698A1E5AD598006FC24E /* AppDelegate.m */,
 				743C698C1E5AD598006FC24E /* ViewController.h */,
@@ -138,6 +144,17 @@
 				743C69AD1E5AD599006FC24E /* Info.plist */,
 			);
 			path = "标签动画UITests";
+			sourceTree = "<group>";
+		};
+		743C69B91E5AD5D7006FC24E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				743C69BA1E5AD5FD006FC24E /* DBMatrix.h */,
+				743C69BB1E5AD677006FC24E /* DBPoint.h */,
+				743C69BC1E5AD69C006FC24E /* DBSphereView.h */,
+				743C69BD1E5AD69C006FC24E /* DBSphereView.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				743C698E1E5AD598006FC24E /* ViewController.m in Sources */,
+				743C69BE1E5AD69C006FC24E /* DBSphereView.m in Sources */,
 				743C698B1E5AD598006FC24E /* AppDelegate.m in Sources */,
 				743C69881E5AD598006FC24E /* main.m in Sources */,
 			);
